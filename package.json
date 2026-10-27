@@ -1,0 +1,22 @@
+{
+  "name": "barca-zone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arabic-first FC Barcelona companion app built with Capacitor",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "vitest run",
+    "check": "node --check src/main.js && node --check src/data/football-provider.js && node --check src/data/normalize.js && node --check src/storage.js && vitest run && vite build"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "vite": "^6.4.1",
+    "vitest": "^3.2.4"
+  }
+}

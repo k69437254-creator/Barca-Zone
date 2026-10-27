@@ -1,0 +1,8 @@
+{
+  "appId": "com.aramoyal.barcazone",
+  "appName": "Barca Zone",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
